@@ -16,6 +16,7 @@ import com.jfinal.template.Engine;
 
 import cn.banking.controller.AdminController;
 import cn.banking.controller.InquiryController;
+import cn.banking.controller.MainPageController;
 import cn.banking.model.AdminInfo;
 import cn.banking.model.InquiryInfo;
 
@@ -38,6 +39,7 @@ public class MyAppConfig extends JFinalConfig {
 		// TODO Auto-generated method stub
 		me.add("/admin", AdminController.class);
 		me.add("/inquiry", InquiryController.class);
+		me.add("/mainpage", MainPageController.class);
 	}
 
 	@Override
@@ -60,6 +62,7 @@ public class MyAppConfig extends JFinalConfig {
         arp.addMapping("user_info", "user_id", AdminInfo.class);
         arp.addMapping("saving_account", "account_number", InquiryInfo.class);
         arp.addMapping("user_info", "user_id", InquiryInfo.class);
+        
         me.add(c3p0Plugin);
         me.add(arp);
 	}
