@@ -8,6 +8,6 @@
 </head>
 <body>
 <p>${sayHello}</p><p><a href="${basePath}/"></a></p>
-
+${size}
 </body>
 </html>
