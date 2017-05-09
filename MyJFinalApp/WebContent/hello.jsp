@@ -7,7 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>${sayHello}</p><p><a href="${basePath}/"></a></p>
+<p>${sayHello}</p><p>${size}<a href="${basePath}/"></a></p>
+
 
 </body>
 </html>

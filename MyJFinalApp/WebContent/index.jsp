@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="${basePath}/sayHello" method="post">
+<form action="${basePath}/admin/sayHello" method="post">
 
 请输入您的名字：
 
